@@ -1,4 +1,4 @@
-1.Install python 3 from python.org
+1.Install python 3 or higher version from python.org
 2.Install django ,open cmd and paste the following text (pip install django)
 3.copy "website" folder from rar file to desktop
 4.install mysql database (give mysql credentials username:root password:FunPride)
