@@ -6,7 +6,7 @@ class user_details_1(models.Model):
     last_name = models.CharField(max_length=64, null=True)
     email = models.CharField(max_length=64,null=False,primary_key=True)
     password = models.CharField(max_length=64, null=False)
-    voted = models.CharField(max_length=64, null=False,default ='')
+    voted = models.CharField(max_length=64, null=False,default ='No')
 
 class voters(models.Model):
     voter_name = models.CharField(max_length=64, null=True)
